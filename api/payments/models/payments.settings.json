@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "payment",
+  "info": {
+    "name": "payments"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "productId": {
+      "type": "string"
+    },
+    "buyerId": {
+      "type": "string"
+    },
+    "perchaseDate": {
+      "type": "datetime"
+    },
+    "productPrice": {
+      "type": "biginteger"
+    },
+    "success": {
+      "type": "boolean"
+    }
+  }
+}
